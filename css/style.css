@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: red;
+    height: 15vh;
+
+}
+
+#search {
+    margin-left: 10vh;
+    width: 80vh;
+}
+
+#searchIcon{
+    width: 10vh;
+    height: 10vh;
+    margin-right: 60vh;
+}
+
+.formulario{
+width: 60vh;
+height: 90vh;
+margin-left: 37%;
+margin-top: 10px; 
+margin-bottom: 10px;
+background-color: #d3cdcd; 
+border-radius: 23px;
+}
+
+.formulario2{
+    background-color: red;
+    width: 60vh;
+    border-radius: 23px;
+}
+
+.formulario input{
+    margin-top: 5vh;
+    border-radius: 8px;
+    border: 1px solid white;
+    
+}
+
+::-webkit-input-placeholder {
+    color: rgb(0, 0, 0);
+ }
+
+
+.formulario button{
+    margin-top: 5vh;
+    background-color: red;
+    width: 40vh;
+    height: 10vh;
+}
+
+.formulario button:hover {
+    background-color: rgb(194, 50, 50);
+    width:50vh ;
+    transition: 0.5s;
+}
+
+.formulario a{
+    color: black;
+}
+
+.card-img-top{
+  width: 400px;
+  height: 300px;
+}
